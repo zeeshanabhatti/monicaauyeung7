@@ -16,8 +16,10 @@
         { username: 'user3', password: 'pass3', expiry: new Date('2023-01-01') }
     ];
 
-    function getUser(username) {
-        return users.find(user => user.username === username);
+// Function to get user by username and pageTitle from the users array
+function getUser(username, password) {
+    return users.find(user => user.username === username && user.password === password);
+
     }
 
     function isUserExpired(user) {
