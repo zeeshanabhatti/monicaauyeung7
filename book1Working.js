@@ -10,6 +10,7 @@
     }
 
     const users = [
+        { username: 'monica', password: '2025', expiry: new Date('2025-12-31') },
         { username: 'guest', password: '1234', expiry: new Date('2099-12-31') },
         { username: 'user1', password: 'pass1', expiry: new Date('2024-12-31') },
         { username: 'user2', password: 'pass2', expiry: new Date('2024-10-01') },
