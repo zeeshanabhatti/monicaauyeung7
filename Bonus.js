@@ -11,7 +11,7 @@ if (excludedPages.includes(currentUrl)) {
 
 // Array of users with page-specific credentials
 const users = [
-    { username: 'guest', password: '1234', expiry: new Date('2099-12-31'), pageTitle: 'Home' },
+    { username: 'guest', password: '1234', expiry: new Date('2099-12-31'), pageTitle: 'book1Working' },
     { username: 'user1', password: 'pass1', expiry: new Date('2024-12-31'), pageTitle: 'Dashboard' },
     { username: 'user2', password: 'pass2', expiry: new Date('2024-10-01'), pageTitle: 'Reports' },
     { username: 'user3', password: 'pass3', expiry: new Date('2023-01-01'), pageTitle: 'Settings' }
