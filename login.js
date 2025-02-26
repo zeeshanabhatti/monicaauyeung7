@@ -1,4 +1,4 @@
-// Array of users with page-specific credentials
+// Array of users with page-specific credentials YY-MM-DD
 const users = [
     { username: 'monica', password: '2025', expiry: new Date('2025-12-31'), pageTitle: 'book1Working' },
     { username: 'monica', password: '2025', expiry: new Date('2025-12-31'), pageTitle: 'Bonus' },
