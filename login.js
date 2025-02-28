@@ -11,6 +11,14 @@ if (excludedPages.includes(currentUrl)) {
 
 // Array of users with page-specific credentials
 const users = [
+    { username: 'zeeshan', password: '2025', expiry: new Date('2099-12-31'), pageTitle: 'book7Respect' },
+    { username: 'zeeshan', password: '2025', expiry: new Date('2099-12-31'), pageTitle: 'book6Dealing' },
+    { username: 'zeeshan', password: '2025', expiry: new Date('2099-12-31'), pageTitle: 'book5Life' },
+    { username: 'zeeshan', password: '2025', expiry: new Date('2099-12-31'), pageTitle: 'book4Discover' },
+    { username: 'zeeshan', password: '2025', expiry: new Date('2099-12-31'), pageTitle: 'book3Hobbies' },
+    { username: 'zeeshan', password: '2025', expiry: new Date('2099-12-31'), pageTitle: 'book2Manners' },
+    { username: 'zeeshan', password: '2025', expiry: new Date('2099-12-31'), pageTitle: 'book1Working' },
+    { username: 'zeeshan', password: '2025', expiry: new Date('2099-12-31'), pageTitle: 'Bonus' },
     { username: 'monica', password: '2025', expiry: new Date('2099-12-31'), pageTitle: 'book7Respect' },
     { username: 'monica', password: '2025', expiry: new Date('2099-12-31'), pageTitle: 'book6Dealing' },
     { username: 'monica', password: '2025', expiry: new Date('2099-12-31'), pageTitle: 'book5Life' },
